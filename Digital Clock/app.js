@@ -19,4 +19,4 @@ function clock() {
   document.getElementById('second').innerHTML = ": " + s;
 }
 
-setInterval(clock, 100);
+setInterval(clock, 1000);
